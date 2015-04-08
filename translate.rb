@@ -9,7 +9,7 @@ csv = CSV.parse(csv_text, :headers => true)
 $correctmatch = 0
 $totalmatch = 0
 
-EasyTranslate.api_key = 'AIzaSyD7GqRdQxks6AoqkFCX_a7B0hk_PDTcM8c'
+EasyTranslate.api_key = 'INSERT-API-KEY'
 
 csv.each do |row|                                      
 query = row['Chinese Word']
